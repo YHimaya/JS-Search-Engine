@@ -1,4 +1,4 @@
-const accessKey = 'iJae1yhFpCouFmMI2CJQ3HlGT_Q2gICMVRQ2e9Aw63s';
+const accessKey = "iJae1yhFpCouFmMI2CJQ3HlGT_Q2gICMVRQ2e9Aw63s";
 
 const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
@@ -27,6 +27,7 @@ async function searchImages(){
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
+
         imageLink.appendChild(image);
         searchResult.appendChild(imageLink);
     })
